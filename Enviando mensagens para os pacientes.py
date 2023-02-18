@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[21]:
-
 
 # Importa as bibliotecas do selenium
 from selenium import webdriver
@@ -71,16 +66,5 @@ for linha in range(2, len(sheet_selecionada["A"])+1):
         caixa_mensagem.send_keys(mensagemContato)
         caixa_mensagem.send_keys(Keys.RETURN)
         tempo.sleep(3)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
 
 
